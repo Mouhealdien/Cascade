@@ -1,0 +1,105 @@
+body{
+    background-image: url("images/6.jpg")  ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position: center;
+    margin: 0;
+    
+}
+
+div{
+
+    background-color: rgba(8, 8, 8, 0.562);
+ }
+
+header div ul  {
+    margin: 0;
+    display: inline-block;
+    color: white;
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+li{
+    display: inline-block;
+    font-size: 0.8em;
+    margin-left: 1em;
+    
+}
+
+img{
+    width: 7em;
+}
+
+nav{
+    text-align: center;
+    margin-top: 12em;
+    color: white;
+}
+
+nav h1{
+    font-size: 37px;
+    font-weight: bold;
+    margin-bottom: 0.4em;
+    
+}
+
+nav button{
+    margin-top: 0;
+    margin-left: 1em;
+    margin-right: 1em;
+    border: none   transparent;
+    border-radius: 1em;
+    text-decoration: none;
+    background-color:rgba(7, 7, 7, 0.507);
+    color: white;
+    padding: 0.5em;
+    outline: none;
+}
+
+ul li:hover{
+
+    background-color: rgba(255, 255, 255, 0.986);
+    color: black;
+    //font-weight: bold;
+    padding: 0.3em;
+    border-radius: 0.7em;  
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 650px){
+
+    img{
+        width: 13em;
+    }
+    ul li{
+        margin-right: 1em;
+        margin-top: 0.8em;
+        font-size: 1.5em;
+
+
+    }
+
+     nav h1{
+        font-size: 4em;
+
+    }
+ nav button    {
+     font-size: 1.2em;
+     
+ }
+
+
+
+}
+
+ 
+
+    
